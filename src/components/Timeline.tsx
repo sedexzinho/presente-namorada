@@ -8,7 +8,6 @@ import moment7 from "@/assets/moment-7.jpg";
 import moment8 from "@/assets/moment-8.jpg";
 import moment9 from "@/assets/moment-9.jpg";
 import moment10 from "@/assets/moment-10.jpg";
-import moment11 from "@/assets/moment-11.jpg";
 import moment12 from "@/assets/moment-12.jpg";
 import moment13 from "@/assets/moment-13.jpg";
 import moment14 from "@/assets/moment-14.jpg";
