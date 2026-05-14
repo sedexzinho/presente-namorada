@@ -1,0 +1,28 @@
+/* src/components/StarsBackground.css */
+.stars-background {
+  position: fixed;
+  inset: 0;               /* cobre toda a viewport */
+  pointer-events: none;   /* deixa os eventos "passarem" */
+  overflow: hidden;
+  z-index: -1;            /* fica atrás do conteúdo da página */
+  /* Não defina cor de fundo aqui se quiser manter o fundo da página visível */
+  /* background: #000; */ /* ← opcional, só use se precisar de um pano escuro */
+}
+
+.star {
+  position: absolute;
+  background: #fff;       /* cor da estrela – ajuste se necessário */
+  border-radius: 50%;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: var(--star-opacity, 0.5);
+  }
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
