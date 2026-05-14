@@ -2,6 +2,7 @@ import { Hero } from "@/components/Hero";
 import { PhotoGallery } from "@/components/PhotoGallery";
 import { Timeline } from "@/components/Timeline";
 import { Letters } from "@/components/Letters";
+import { TimeCounter } from "@/components/TimeCounter";
 import { BirthdayMessage } from "@/components/BirthdayMessage";
 import { Footer } from "@/components/Footer";
 import { MusicPlayer } from "@/components/MusicPlayer";
@@ -28,6 +29,7 @@ const Index = () => {
       <PhotoGallery />
       <Timeline />
       <Letters />
+      <TimeCounter />
       <BirthdayMessage />
       <Footer />
       <MusicPlayer />
