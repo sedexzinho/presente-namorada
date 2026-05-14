@@ -12,20 +12,32 @@ import photo10 from "@/assets/moment-9.jpg";
 import photo11 from "@/assets/moment-10.jpg";
 import photo12 from "@/assets/moment-11.jpg";
 import photo13 from "@/assets/moment-12.jpg";
+import photo14 from "@/assets/moment-15.jpg";
+import photo18 from "@/assets/moment-20.jpg";
+import photo15 from "@/assets/moment-17.jpg";
+import photo16 from "@/assets/moment-18.jpg";
+import photo17 from "@/assets/moment-19.jpg";
+import photo19 from "@/assets/moment-21.jpg";
 
 const photos = [
-  { src: photo2, alt: "Nosso primeiro café", caption: "O começo de tudo, nossa primeiro encontro" },
-  { src: photo3, alt: "Pés na areia", caption: "Nosso primeiro natal juntos" },
+  { src: photo2, alt: "Nosso primeiro café", caption: "O começo de tudo, nosso primeiro encontro" },
+  { src: photo3, alt: "Pés na areia", caption: "Nosso primeiro Natal juntos" },
   { src: photo4, alt: "Piquenique", caption: "Indo pra Suzano juntos" },
-  { src: photo5, alt: "Virada do ano", caption: "Nosso hallowen juntos" },
+  { src: photo5, alt: "Virada do ano", caption: "Nosso Halloween juntos" },
   { src: photo6, alt: "Filme no sofá", caption: "Amei essa saidinha com meus sogros" },
-  { src: photo7, alt: "Dia de chuva", caption: "Uma das minhas fotos favoritas, nossa primeira viagem para praia juntos amor" },
-  { src: photo8, alt: "Aniversário de namoro", caption: "Nosso primeiro evento de carros juntos amor" },
-  { src: photo9, alt: "Viagem inesperada", caption: "Minha primeira vez em Tiete amor" },
-  { src: photo10, alt: "Cozinhando juntos", caption: "ANIVERSARIO DE 14 ANOS DA MINHA PRINCESA" },
-  { src: photo11, alt: "Dançando", caption: "Nossa primeira vez no cinema amor, pra assistir Noiva Cadáver" },
+  { src: photo7, alt: "Dia de chuva", caption: "Uma das minhas fotos favoritas, nossa primeira viagem pra praia juntos, amor" },
+  { src: photo8, alt: "Aniversário de namoro", caption: "Nosso primeiro evento de carros juntos, amor" },
+  { src: photo9, alt: "Viagem inesperada", caption: "Minha primeira vez em Tietê, amor" },
+  { src: photo10, alt: "Cozinhando juntos", caption: "Aniversário de 14 anos da minha princesa" },
+  { src: photo11, alt: "Dançando", caption: "Nossa primeira vez no cinema, amor, pra assistir Noiva Cadáver" },
   { src: photo12, alt: "Passeio de bicicleta", caption: "Lembro até hoje de como fiquei queimado depois" },
-  { src: photo13, alt: "Carta especial", caption: "NOSSO PRIMEIRO ANO NOVO JUNTOS AMOR" },
+  { src: photo13, alt: "Carta especial", caption: "Nosso primeiro Ano Novo juntos, amor" },
+  { src: photo14, alt: "Carta especial", caption: "Nossa última viagem, minha viagem favorita" },
+  { src: photo15, alt: "Carta especial", caption: "Minha primeira vez em uma pista de verdade, ver onde Ayrton Senna correu" },
+  { src: photo16, alt: "Carta especial", caption: "Eu só amo muito essa foto" },
+  { src: photo17, alt: "Carta especial", caption: "Simplesmente linda, minha namorada" },
+  { src: photo18, alt: "Carta especial", caption: "Indo sozinhos pra casa da minha madrinha" },
+  { src: photo19, alt: "Carta especial", caption: "De novo a linda da minha namorada" },
 ];
 
 export const PhotoGallery = () => {
@@ -45,13 +57,13 @@ export const PhotoGallery = () => {
         </div>
 
         <div className="relative animate-fade-up">
-          <div className="overflow-hidden rounded-3xl shadow-petal">
+          <div className="overflow-hidden rounded-3xl shadow-petal h-[500px]">
             <img
               key={index}
               src={current.src}
               alt={current.alt}
               loading="lazy"
-              className="w-full h-auto object-cover animate-fade-up"
+              className="w-full h-full object-cover animate-fade-up"
             />
           </div>
 

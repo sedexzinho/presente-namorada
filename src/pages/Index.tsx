@@ -26,10 +26,10 @@ const Index = () => {
     <main className="min-h-screen bg-background">
       <FallingHearts />
       <Hero />
+      <TimeCounter />
       <PhotoGallery />
       <Timeline />
       <Letters />
-      <TimeCounter />
       <BirthdayMessage />
       <Footer />
       <MusicPlayer />

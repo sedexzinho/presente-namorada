@@ -3,12 +3,15 @@ import { Music, X, SkipForward, SkipBack } from "lucide-react";
 
 const TRACKS = [
   { title: "Um Amor Puro – Djavan", type: "soundcloud", url: "https://soundcloud.com/arthur-ferreira-827512497/djavan-um-amor-puro" },
+  {title: "Oceano", type: "soundcloud", url : "https://soundcloud.com/sus-479508025/djavan-oceano"},
   { title: "Thriller", type: "youtube", url: "vAN-Ajsh1zA" },
   { title: "Billie Jean", type: "youtube", url: "QRidtXn0u7k" },
+  {title: "Heaven Can Wait", type: "soundcloud", url : "https://soundcloud.com/user-408272094/heaven-can-wait"},
   { title: "Sofa Breja e Netflix", type: "youtube", url: "8toOJb8xhB8" },
   { title: "Vagalumes – Pollo", type: "soundcloud", url: "https://soundcloud.com/pollooficial/vagalumes" },
-  {title: "Oceano", type: "soundcloud", url : "https://soundcloud.com/sus-479508025/djavan-oceano"},
   { title: "Melo de amor", type: "youtube", url: "gBbNRmYknbQ"},
+
+
 ];
 
 export const MusicPlayer = () => {
