@@ -18,6 +18,8 @@ import photo15 from "@/assets/moment-17.jpg";
 import photo16 from "@/assets/moment-18.jpg";
 import photo17 from "@/assets/moment-19.jpg";
 import photo19 from "@/assets/moment-21.jpg";
+import photo20 from "@/assets/moment-22.jpg";
+
 
 const photos = [
   { src: photo2, alt: "Nosso primeiro café", caption: "O começo de tudo, nosso primeiro encontro" },
@@ -38,6 +40,8 @@ const photos = [
   { src: photo17, alt: "Carta especial", caption: "Simplesmente linda, minha namorada" },
   { src: photo18, alt: "Carta especial", caption: "Indo sozinhos pra casa da minha madrinha" },
   { src: photo19, alt: "Carta especial", caption: "De novo a linda da minha namorada" },
+  { src: photo20, alt: "Carta especial", caption: "Passeio no villa_lobos pertinho  do natal, todo mundo da minha familia" },
+
 ];
 
 export const PhotoGallery = () => {
